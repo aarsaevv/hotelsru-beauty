@@ -1,15 +1,30 @@
 .services {
-    height: 80px;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	height: 80px;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .services-links {
+	&__services-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+}
 
-    &__services-list {
-        display: flex;
-        gap: 40px;
-    }
+@media screen and (max-width: 1024px) {
+	.services {
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.services-links {
+		&__services-list {
+			gap: 10px 20px;
+			justify-content: center;
+		}
+	}
 }
