@@ -1,0 +1,28 @@
+@import '../scss/variables.scss';
+@import '../scss/header.scss';
+@import '../scss/services.scss';
+@import '../scss/banner.scss';
+@import '../scss/exclusive-deals.scss';
+@import '../scss/footer.scss';
+
+._container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}

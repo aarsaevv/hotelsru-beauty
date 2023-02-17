@@ -1,0 +1,49 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+
+    &__links {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__contacts {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+.links {
+
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        border: 2px solid $color-accent;
+        border-radius: 50%;
+    }
+
+    &__text {
+        text-decoration: none;
+        color: #828282;
+    }
+}
+
+.copyright-policy {
+    display: flex;
+    height: 64px;
+    background-color: #EFEFEF;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,43 @@
+.banner {
+    background: url(../assets/images/banner.png) center center no-repeat;
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.description {
+
+    &__heading, &__text, &__details {
+        width: 330px;
+    }
+
+    &__heading {
+        font-size: 48px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    &__text {
+        line-height: 1.45;
+        padding: 0;
+        margin: 50px 0;
+    }
+
+    &__details {
+        width: 170px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 40px;
+        background: transparent;
+        color: white;
+        letter-spacing: 1px;
+    }
+}

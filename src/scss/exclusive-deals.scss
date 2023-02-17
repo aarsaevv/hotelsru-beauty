@@ -1,0 +1,142 @@
+@import 'variables.scss';
+
+.exclusive-deals {
+    height: 955px;
+    background-color: $color-gray;
+
+    &__heading {
+        font-size: 24px;
+        font-weight: 700;
+        padding: 80px 0 40px 0;
+    }
+
+    &__goods {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__promotion {
+        display: flex;
+        position: relative;
+        top: 100px;
+        justify-content: space-between;
+    }
+}
+
+.goods {
+
+    &__product-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 255px;
+        height: 365px;
+        background-color: #fff;
+    }
+}
+
+.product-item {
+
+    &__title {
+        text-align: center;
+        width: 195px;
+        line-height: 20px;
+        color: $color-dark;
+    }
+
+    &__price {
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    &__picture {
+        width: 125px;
+        height: 166px;
+    }
+
+    &__buy {
+        width: 130px;
+        height: 35px;
+        border: none;
+        border-radius: 30px;
+        background-color: $color-accent;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+}
+
+.promotion {
+    color: #fff;
+
+    &__subscribe, &__stores {
+        width: 540px;
+        height: 212px;
+        background-color: $color-accent;
+    }
+
+    &__subscribe {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    &__stores {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.subscribe {
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+.stores {
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin: 0 0 0 40px;
+    }
+
+
+}
+
+.info {
+
+    &__heading {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__description {
+        width: 231px;
+        line-height: 21px;
+    }
+
+    &__email-input {
+        width: 200px;
+        height: 35px;
+        border: none;
+        border-radius: 30px;
+        padding: 0 0 0 25px;
+    }
+
+    &__map {
+        width: 170px;
+        height: 35px;
+        border: 2px solid #fff;
+        border-radius: 30px;
+        background-color: $color-accent;
+        color: #fff;
+    }
+}
